@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_map_normal"
+    android:title="常规"
+    android:enabled="true"
+    />
+    <item
+        android:id="@+id/menu_map_weixing"
+        android:title="卫星"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/menu_map_jiaotong"
+        android:title="交通"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/menu_map_reli"
+        android:title="热力"
+        android:enabled="true"
+        />
+</menu>
