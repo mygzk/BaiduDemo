@@ -48,6 +48,10 @@
         <activity android:name=".ui.LayersDemoActivity" />
         <activity android:name=".ui.MapControlActivity" />
         <activity android:name=".ui.LocationActivity" />
+
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+        </service>
     </application>
+
 
 </manifest>

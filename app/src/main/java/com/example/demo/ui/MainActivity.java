@@ -2,6 +2,8 @@ package com.example.demo.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,6 +42,13 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+
+        init();
+    }
+
+    private void init() {
+        Display display = getWindowManager().getDefaultDisplay(); //Activity#getWindowManager()
+        Log.e(TAG,display.toString());
     }
 
     class MyAdapter extends BaseAdapter{
