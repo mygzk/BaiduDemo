@@ -29,6 +29,7 @@ public class MainActivity extends BaseActivity {
         classEntityList.add(new ClassEntity("LayersDemoActivity 普通地图 卫星地图 交通流量 城市热力", LayersDemoActivity.class));
         classEntityList.add(new ClassEntity("基础控制", MapControlActivity.class));
         classEntityList.add(new ClassEntity("定位", LocationActivity.class));
+        classEntityList.add(new ClassEntity("地图画线 圆 等", GeometryDemo.class));
         ListView list = (ListView)findViewById(R.id.lisv_map);
 
         list.setAdapter(new MyAdapter());

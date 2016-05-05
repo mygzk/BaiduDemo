@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <!-- 这个权限用于进行网络定位 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -49,9 +48,12 @@
         <activity android:name=".ui.MapControlActivity" />
         <activity android:name=".ui.LocationActivity" />
 
-        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
-        </service>
-    </application>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
 
+        <activity android:name=".ui.GeometryDemo"></activity>
+    </application>
 
 </manifest>

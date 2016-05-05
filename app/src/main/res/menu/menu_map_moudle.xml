@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/menu_map_normal"
-    android:title="常规"
-    android:enabled="true"
-    />
+    <item
+        android:id="@+id/menu_map_normal"
+        android:enabled="true"
+        android:title="常规" />
     <item
         android:id="@+id/menu_map_weixing"
-        android:title="卫星"
         android:enabled="true"
-        />
+        android:title="卫星" />
     <item
         android:id="@+id/menu_map_jiaotong"
-        android:title="交通"
         android:enabled="true"
-        />
+        android:title="交通" />
     <item
         android:id="@+id/menu_map_reli"
-        android:title="热力"
         android:enabled="true"
-        />
+        android:title="热力" />
+
+    <item
+        android:id="@+id/menu_map_model_nomal"
+        android:enabled="true"
+        android:title="普通" />
+    <item
+        android:id="@+id/menu_map_model_compress"
+        android:enabled="true"
+        android:title="罗盘" />
+    <item
+        android:id="@+id/menu_map_model_follow"
+        android:enabled="true"
+        android:title="跟谁" />
+    <item
+        android:id="@+id/menu_map_default"
+        android:enabled="true"
+        android:title="默认" />
+    <item
+        android:id="@+id/menu_map_custom"
+        android:enabled="true"
+        android:title="自定义" />
 </menu>
