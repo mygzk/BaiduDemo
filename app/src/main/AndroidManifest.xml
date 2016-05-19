@@ -51,9 +51,10 @@
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote"></service>
+            android:process=":remote" />
 
-        <activity android:name=".ui.GeometryDemo"></activity>
+        <activity android:name=".ui.GeometryDemo" />
+        <activity android:name=".ui.OverlayDemo"></activity>
     </application>
 
 </manifest>
