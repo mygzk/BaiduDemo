@@ -2,16 +2,15 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-
         debugkeystore {
             keyAlias 'debugkeystore'
             keyPassword 'xiaoguo0902'
-            storeFile file('/home/guozhk/文档/keystore.jks')
+            storeFile file('../keystore.jks')
             storePassword 'xiaoguo0902'
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.example.demo"
         minSdkVersion 15
