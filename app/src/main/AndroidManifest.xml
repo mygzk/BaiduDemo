@@ -54,7 +54,10 @@
             android:process=":remote" />
 
         <activity android:name=".ui.GeometryDemo" />
-        <activity android:name=".ui.OverlayDemo"></activity>
+        <activity
+            android:name=".ui.OverlayDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
